@@ -27,7 +27,7 @@ function resetCrystals() {
 
 function resetHTML() {
 	$(".target-number").html(targetNumber);
-	$(".win-lose-counter").html("<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>");
+	$(".win-lose-counter").html("<p>Wins <span class='badge badge-secondary'>" + wins + "</span></p>" + "<p>Losses <span class='badge badge-secondary'>" + losses + "</span></p>");
 	$(".score-number").html(counter);
 	$(".crystal-images").empty();
 }
