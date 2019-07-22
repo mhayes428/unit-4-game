@@ -6,7 +6,7 @@ var targetNumber = "";
 var wins = 0;
 var losses = 0;
 var counter = 0;
-var images = ["./assets/images/Crystal-Blue.png", "./assets/images/Crystal-Purple.png", "./assets/images/red_crystal.png", "./assets/images/Crystal-Yellow.png"];
+var images = ["./assets/images/blue_crystal.png", "./assets/images/purple_crystal.png", "./assets/images/red_crystal.png", "./assets/images/yellow_crystal.png"];
 
 // Functions
 
