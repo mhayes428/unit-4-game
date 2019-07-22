@@ -13,10 +13,7 @@ body {
 	border-width: 4px;
 }
 
-.crystal-images {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
+
 
 .win-lose-counter {
 	background-color: #9CE7F8;
@@ -25,7 +22,10 @@ body {
 	border-width: 4px;
 }
 
-
+.crystal-images {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 .total-score {
 	color: white;
