@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
@@ -15,18 +15,32 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Crystal Collector: Episode II - Attack of the Stones</h1>
-            <p class="lead">
-                <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
-                <li>You win the game by matching your total score to the random number.</li>
-                <li>You lose the game if your total score goes above the random number.</li>
-                <li>The value of each crystal is hidden from you until you click on it.</li>
-                <li>Each time when the game starts, the game will change the values of each crystal.</li>
-            </p>
+
         </div>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">How to Play!</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>By clicking on a crystal, you will add a specific amount of points to your total score.</ul>
+                        <ul>You win the game by matching your total score to the random number.</ul>
+                        <ul>You lose the game if your total score goes above the random number.</ul>
+                        <ul>The value of each crystal is hidden from you until you click on it.</ul>
+                        <ul>Each time when the game starts, the game will change the values of each crystal.</ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+            
 
-    
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -37,10 +51,11 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-        <div id="player">
-            <audio controls autoplay><source src="assets/audio/PaintItBlack.mp3" type="audio/mpeg"> unsupported !!</audio>
-        </div>
-<script type="text/javascript" src="assets/javascript/game.js"></script>
+    <div id="player">
+        <audio controls autoplay>
+            <source src="assets/audio/PaintItBlack.mp3" type="audio/mpeg"> unsupported !!</audio>
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
