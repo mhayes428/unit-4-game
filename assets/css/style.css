@@ -20,3 +20,18 @@ body {
 	border-width: 4px;
 }
 
+.crystal-images {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.total-score {
+	color: white;
+	background-color: #4aaaa5;
+}
+
+.score-number {
+	color: white;
+	background-color: #4aaaa5;
+	font-size: 30px;
+}
